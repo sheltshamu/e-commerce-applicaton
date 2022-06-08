@@ -1,6 +1,12 @@
 package zw.co.getsol.ecommerce_application.service;
 
+import zw.co.getsol.ecommerce_application.dto.CategoryCreateRequest;
+import zw.co.getsol.ecommerce_application.response.CategoryResponse;
+
 public interface CreateCategoryService {
+    CategoryResponse create(CategoryCreateRequest CategoryCreateRequest);
+
+
     /*
     Create
 Update
